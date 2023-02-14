@@ -17,6 +17,7 @@ define("UsrGoparnaSection1Page", [], function() {
 		methods: {
 			TestMerge:function(){
 				console.log("Test Merge");
+				console.log("Opened Record");
 			},
 			onEntityInitialized:function(){
 				this.callParent(arguments);
