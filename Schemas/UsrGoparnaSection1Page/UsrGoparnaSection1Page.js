@@ -14,7 +14,15 @@ define("UsrGoparnaSection1Page", [], function() {
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			TestMerge:function(){
+				console.log("Test Merge");
+			},
+			onEntityInitialized:function(){
+				this.TestMerge();
+			}
+	
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
