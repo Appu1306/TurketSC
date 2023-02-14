@@ -20,6 +20,7 @@ define("UsrGoparnaSection1Page", [], function() {
 				this.showInformationDialog("Opened Record");
 			},
 			onEntityInitialized:function(){
+				this.callParent(arguments);
 				this.TestMerge();
 			}
 	
