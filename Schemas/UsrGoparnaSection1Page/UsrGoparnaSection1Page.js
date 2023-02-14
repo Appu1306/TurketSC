@@ -19,6 +19,7 @@ define("UsrGoparnaSection1Page", [], function() {
 				console.log("Test Merge");
 			},
 			onEntityInitialized:function(){
+				this.callParent(arguments);
 				this.TestMerge();
 			}
 	
