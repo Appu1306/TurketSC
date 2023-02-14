@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4bfce560-ebd0-4b34-acd3-7ed585758dfc",
+    "Name": "UsrGoparnaSectionInTag",
+    "ModifiedOnUtc": "\/Date(1676357695000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "GoparnaSection section record tag",
+    "DependsOn": []
+  }
+}

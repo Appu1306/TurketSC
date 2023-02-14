@@ -1,0 +1,9 @@
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\Bin\TurketSC.dll
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\Bin\TurketSC.pdb
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.csproj.AssemblyReference.cache
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.AssemblyInfoInputs.cache
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.AssemblyInfo.cs
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.csproj.CoreCompileInputs.cache
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.dll
+C:\SourceControlTN\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\TurketSC\Files\obj\Release\TurketSC.pdb

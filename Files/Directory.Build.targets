@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/TurketSC/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/TurketSC/Data/**" />
+		<Compile Remove="$(PkgPath)/TurketSC/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/TurketSC/Schemas\**" />
+		<Compile Remove="$(PkgPath)/TurketSC/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/TurketSC/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/TurketSC/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/TurketSC/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/TurketSC/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/TurketSC/Resources/**" />
+		<None Remove="$(PkgPath)/TurketSC/Assemblies/**" />
+		<None Remove="$(PkgPath)/TurketSC/Data/**" />
+		<None Remove="$(PkgPath)/TurketSC/SqlScripts/**" />
+		<None Remove="$(PkgPath)/TurketSC/Schemas/**" />
+		<None Remove="$(PkgPath)/TurketSC/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9cef9634-750e-4a32-ae77-48d1ce23d515",
+    "Name": "UsrGoparnaSection1Page",
+    "ModifiedOnUtc": "\/Date(1676357675000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"GoparnaSection\""
+  }
+}

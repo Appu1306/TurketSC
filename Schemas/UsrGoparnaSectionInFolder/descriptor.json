@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "53da30b0-0db4-4308-8ac6-c17ccaecbbb0",
+    "Name": "UsrGoparnaSectionInFolder",
+    "ModifiedOnUtc": "\/Date(1676357689000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "GoparnaSection in Folder",
+    "DependsOn": []
+  }
+}
