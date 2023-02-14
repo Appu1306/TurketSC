@@ -15,6 +15,7 @@ define("UsrGoparnaSection1Page", [], function() {
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
+		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
@@ -35,48 +36,67 @@ define("UsrGoparnaSection1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"parentName": "Tabs",
-				"propertyName": "tabs",
-				"index": 0,
+				"name": "INTEGER3fb7aea5-f59c-411d-bb52-cedea3a61fd2",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrNumber",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "NotesAndFilesTab",
 				"values": {
 					"caption": {
 						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
 					},
-					"items": []
-				}
+					"items": [],
+					"order": 0
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 0
 			},
 			{
 				"operation": "insert",
-				"parentName": "NotesAndFilesTab",
-				"propertyName": "items",
 				"name": "Files",
 				"values": {
-					"itemType": Terrasoft.ViewItemType.DETAIL
-				}
+					"itemType": 2
+				},
+				"parentName": "NotesAndFilesTab",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "insert",
-				"parentName": "NotesAndFilesTab",
-				"propertyName": "items",
 				"name": "NotesControlGroup",
 				"values": {
-					"itemType": Terrasoft.ViewItemType.CONTROL_GROUP,
+					"itemType": 15,
 					"caption": {
 						"bindTo": "Resources.Strings.NotesGroupCaption"
 					},
 					"items": []
-				}
+				},
+				"parentName": "NotesAndFilesTab",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",
-				"parentName": "NotesControlGroup",
-				"propertyName": "items",
 				"name": "Notes",
 				"values": {
 					"bindTo": "UsrNotes",
-					"dataValueType": Terrasoft.DataValueType.TEXT,
-					"contentType": Terrasoft.ContentType.RICH_TEXT,
+					"dataValueType": 1,
+					"contentType": 4,
 					"layout": {
 						"column": 0,
 						"row": 0,
@@ -93,6 +113,16 @@ define("UsrGoparnaSection1Page", [], function() {
 							"bindTo": "NotesImagesCollection"
 						}
 					}
+				},
+				"parentName": "NotesControlGroup",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "merge",
+				"name": "ESNTab",
+				"values": {
+					"order": 1
 				}
 			}
 		]/**SCHEMA_DIFF*/
