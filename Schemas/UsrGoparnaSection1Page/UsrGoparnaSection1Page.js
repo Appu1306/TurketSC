@@ -18,6 +18,7 @@ define("UsrGoparnaSection1Page", [], function() {
 			TestMerge:function(){
 				console.log("Test Merge");
 				console.log("Opened Record");
+				console.log("Rakshith Commit");
 			},
 			onEntityInitialized:function(){
 				this.callParent(arguments);
